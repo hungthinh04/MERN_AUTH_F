@@ -12,7 +12,7 @@ export default function Login() {
         <div className="login_btn">
           <button>login</button>
           <button className='btn-alt'>
-            sign in google <FcGoogle/>
+            sign iin google <FcGoogle/>
 
           </button>
         </div>
