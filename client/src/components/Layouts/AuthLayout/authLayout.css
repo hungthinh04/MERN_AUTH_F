@@ -1,0 +1,59 @@
+.authLayout {
+  height: 100vh;
+  background-color: #1d1927;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.authLayout_Logo {
+  border-radius: 50%;
+  padding: 2rem;
+  margin-bottom: 4em;
+  animation: float 6s ease-in-out infinite;
+}
+.authLayout_Logo img {
+  max-width: 100px;
+}
+.authLayout_Actions {
+  display: flex;
+  justify-content: space-between;
+  max-width: 370px;
+  width: 100%;
+  margin-top: 2em;
+  padding: 0 2px;
+}
+.authLayout_Actions p {
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 300;
+}
+.authLayout_Actions_l {
+  color: #fdc024;
+}
+.authLayout_Actions_r {
+  color: #f96a8b;
+}
+
+@keyframes float {
+  0% {
+    box-shadow: 0 5px 15px 0 rgba(252, 222, 255, 0.6);
+    transform: translateX(0);
+  }
+  25% {
+    box-shadow: 0 25px 15px 0 rgba(252, 133, 173, 0.2);
+    transform: translateX(5px);
+  }
+  50% {
+    box-shadow: 0 25px 15px 0 rgba(252, 133, 173, 0.2);
+    transform: translateY(-5px);
+  }
+  75% {
+    box-shadow: 0 25px 15px 0 rgba(252, 133, 173, 0.2);
+    transform: translateY(5px);
+  }
+  100% {
+    box-shadow: 0 5px 15px 0 rgba(252, 222, 255, 0.6);
+    transform: translateX(0);
+  }
+}/*# sourceMappingURL=authLayout.css.map */
