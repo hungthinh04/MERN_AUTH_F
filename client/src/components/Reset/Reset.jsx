@@ -4,7 +4,7 @@ import {MdVisibilityOff} from 'react-icons/md'
 import React ,  {useState} from 'react'
 
 export default function Reset() {
-
+  
     const [visible,setVisible] = useState(false)
     const handleClick=()=>
     {
@@ -13,7 +13,7 @@ export default function Reset() {
 
   return (
    <form action="">
-    <Input text="Password" type={visible ? 'text': 'password'}
+    <Input text="Password"  type={visible ? 'text': 'password'}
       icon={visible ? <MdVisibility/> : <MdVisibilityOff/>}
     
       handleClick={handleClick}/>
