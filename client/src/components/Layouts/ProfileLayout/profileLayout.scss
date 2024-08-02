@@ -1,5 +1,12 @@
 @import '../../variables/variables.scss';
 
+.body{
+    background:$purple-dark;
+}
+
 .profileLayout{
-    background: $pink;
+    background: $purple-dark;
+    display: flex;
+    overflow: hidden;
+    height: 100vh;
 }

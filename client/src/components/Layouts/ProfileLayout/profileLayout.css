@@ -1,3 +1,10 @@
+.body {
+  background: #1d1927;
+}
+
 .profileLayout {
-  background: #f96a8b;
+  background: #1d1927;
+  display: flex;
+  overflow: hidden;
+  height: 100vh;
 }/*# sourceMappingURL=profileLayout.css.map */

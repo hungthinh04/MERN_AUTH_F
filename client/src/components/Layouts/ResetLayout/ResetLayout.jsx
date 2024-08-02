@@ -7,7 +7,7 @@ export default function ResetLayout() {
   const navigate = useNavigate();
 
   return (
-    <div className="authLayout">
+    <div className="authLayout" style={{height:'100vh'}}>
       {/* logo */}
       <div className="authLayout_Logo">
         <img src="../../assets/img/spaceship.svg" alt="auth_logo" />

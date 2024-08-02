@@ -6,7 +6,7 @@ import ResetLayout from './components/Layouts/ResetLayout/ResetLayout';
 import ActivateLayout from './components/Layouts/ActivateLayout/ActivateLayout';
 
 function App() {
-  const isLoggedIn = true;
+  const isLoggedIn = false;
 
   return (
     <div className="App">
