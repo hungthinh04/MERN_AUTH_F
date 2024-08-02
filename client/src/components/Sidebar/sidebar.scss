@@ -3,8 +3,7 @@
     .sidebar{
         position: fixed;
         top: 0;
-       
-        margin-left: 15px;
+        min-width: 280px;
         background-color: rgba($color:$purple-dark,$alpha:0.8);
         backdrop-filter: saturate(80%) blur(20px);
         z-index: 1;
@@ -18,7 +17,7 @@
             padding: 1em 3em;
             border-radius: 5px;
             min-width: 200px;
-            width: 100%;
+   
             margin: 0 auto;
             li:nth-child(1)
             {

@@ -1,7 +1,7 @@
 .sidebar {
   position: fixed;
   top: 0;
-  margin-left: 15px;
+  min-width: 280px;
   background-color: rgba(29, 25, 39, 0.8);
   -webkit-backdrop-filter: saturate(80%) blur(20px);
           backdrop-filter: saturate(80%) blur(20px);
@@ -16,7 +16,6 @@
   padding: 1em 3em;
   border-radius: 5px;
   min-width: 200px;
-  width: 100%;
   margin: 0 auto;
 }
 .sidebar .sidebar_menu li:nth-child(1) svg {
