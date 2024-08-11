@@ -10,3 +10,33 @@
     overflow: hidden;
     height: 100vh;
 }
+
+.profileLayout_sidebar {
+    display: none;
+
+    // Use this class to toggle the sidebar visibility
+   
+}
+.profileLayout_content{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: calc(4% + 75px);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5em;
+    margin: 0;
+}
+
+@include for-desktop{
+       
+    .profileLayout_content{
+        padding-left: 280px;
+        flex-direction: row;
+    }
+    .profileLayout_content_feed{
+        width: 50%;
+    }
+}

@@ -1,10 +1,10 @@
 import Avatar from '../Avatar/Avatar'
 import './Appbar.css'
-
+import { BiMenuAltLeft } from "react-icons/bi";
 
 import React from 'react'
 
-export default function Appbar() {
+export default function Appbar({handleSidebar}) {
   return (
     <div className="appbar">
         <div className="appbar_wrapper">
@@ -16,8 +16,9 @@ export default function Appbar() {
             {/* avatar */}
             <div className="appbar_avatar">
 <Avatar/>
+<BiMenuAltLeft onClick={handleSidebar}/>
             </div>
         </div>
     </div>
-  )
+  ) 
 }
