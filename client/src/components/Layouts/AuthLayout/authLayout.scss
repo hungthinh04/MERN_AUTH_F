@@ -2,6 +2,7 @@
 
 .authLayout{
     height: 100vh;
+    overflow-x: hidden;
     background-color: $purple-dark;
     display: flex;
     flex-direction: column;
@@ -59,4 +60,19 @@
         box-shadow: 0 5px 15px 0 rgba(252,222,255 ,.6);
         transform: translateX(0);
     }
+}
+
+@include for-desktop{
+    
+.authLayout{
+ 
+  
+  
+    &_Actions{
+ 
+        max-width: 370px;
+        
+    
+    }
+}
 }

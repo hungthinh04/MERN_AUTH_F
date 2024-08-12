@@ -7,16 +7,18 @@
 .profileLayout{
     background: $purple-dark;
     display: flex;
-    overflow: hidden;
-    height: 100vh;
+
 }
 
 .profileLayout_sidebar {
     display: none;
 
-    // Use this class to toggle the sidebar visibility
-   
 }
+
+.profileLayout_sidebar.open{
+    display: initial;
+}
+
 .profileLayout_content{
     display: flex;
     flex-direction: column;
@@ -29,9 +31,30 @@
     padding-bottom: 5em;
     margin: 0;
 }
+.profileLayout_content-feed{
+    width: 100%;
+    order: 2;
+}
+
+.profileLayout_content-profile{
+    width: 100%;
+    order: 1;
+}
 
 @include for-desktop{
-       
+
+    .profileLayout_content-feed{
+        width: 50%;
+        order: 1;
+    }
+    .profileLayout_content-profile{
+        width: 45%;
+        order: 2;
+    }
+
+        .profileLayout_sidebar{
+    display: initial;
+        }
     .profileLayout_content{
         padding-left: 280px;
         flex-direction: row;

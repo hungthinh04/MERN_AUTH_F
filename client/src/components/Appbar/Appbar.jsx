@@ -10,10 +10,10 @@ export default function Appbar({handleSidebar}) {
         <div className="appbar_wrapper">
             {/* logo */}
             <div className="appbar_logo">
-<img src="./assets/img/spaceship.svg" alt="logo" />
-<p>MERN AUTH</p>
+              <img src="./assets/img/spaceship.svg" alt="logo" />
+              <p>MERN AUTH</p>
             </div>
-            {/* avatar */}
+            {/* avatar */}  
             <div className="appbar_avatar">
 <Avatar/>
 <BiMenuAltLeft onClick={handleSidebar}/>
